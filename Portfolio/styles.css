@@ -23,23 +23,19 @@ body {
 
 .hero-section .box {
     position: absolute; /* Change to absolute to position waves relative to the hero section */
-    top: 0%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
+    top: -10%; 
+    left: 50%; 
     transform: translate(-50%, -50%) rotate(50deg); /* Center the box and rotate */
 }
 
 .hero-section .wave {
     position: absolute;
     opacity: .4;
-    width: 1500px;
-    height: 1300px;
+    width: 2600px;
+    height: 1500px;
     border-radius: 43%;
 }
 
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); } /* Fix keyframes from/to values */
-}
 
 .hero-section .box .wave.-one {
     animation: rotate 7000ms infinite linear;
